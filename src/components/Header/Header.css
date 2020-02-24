@@ -1,0 +1,16 @@
+#header {
+  font-family: 'Lobster', cursive;
+  background: #93C461;
+  font-size: 35px;
+  color: white;
+  padding: 5px;
+  position: fixed;
+  top: 0;
+  z-index: 10000;
+  width: 100%;
+}
+
+#header nav {
+  margin-left: 50px;
+}
+/*# sourceMappingURL=Header.css.map */

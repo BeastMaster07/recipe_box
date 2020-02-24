@@ -1,0 +1,93 @@
+#recipes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-family: 'Josefin Sans';
+  font-weight: 300;
+  font-size: 20px;
+  margin: 5%;
+}
+
+#recipes .recipe {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 34%;
+          flex: 0 1 34%;
+  margin-top: 20px;
+}
+
+#recipes .recipe .recipe-title h3 {
+  text-align: center;
+}
+
+#recipes .recipe .recipe-image .thumbnail {
+  width: 100%;
+}
+
+#recipes .recipe .recipe-description {
+  font-style: italic;
+}
+
+#recipes .recipe .recipe-button .edit {
+  background: #93C461;
+}
+
+#recipes .recipe .recipe-button .delete {
+  background: #C33F3F;
+}
+
+#recipes .recipe summary {
+  background: #ffffff;
+  /* Old browsers */
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), color-stop(50%, #f3f3f3), color-stop(51%, #ededed), to(#ffffff));
+  background: linear-gradient(to bottom, #ffffff 0%, #f3f3f3 50%, #ededed 51%, #ffffff 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
+  /* IE6-9 */
+  height: 40px;
+  cursor: pointer;
+}
+
+#recipes .recipe summary:focus {
+  outline: none;
+}
+
+#recipes .recipe ol li {
+  margin: 5px 0;
+}
+
+.btn {
+  width: 100px;
+  height: 35px;
+  color: white;
+  border-radius: 12px;
+  cursor: pointer;
+  border: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  margin: 0 10px;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:hover {
+  background: #333 !important;
+}
+
+@media (max-width: 480px) {
+  #recipes .recipe {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
+  }
+}
+/*# sourceMappingURL=Recipe.css.map */
